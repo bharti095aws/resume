@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Engineering Student Persona</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f2f5;
+            color: #333;
+            animation: fadeInBody 1.5s ease-in;
+        }
+
+        @keyframes fadeInBody {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { transform: translateY(20px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #3498db;
+        }
+
+        .profile-info {
+            flex: 1;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+
+        h2 {
+            color: #3498db;
+            margin-top: 30px;
+        }
+
+        p, ul {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .profile {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile">
+            <img src="image1.jpeg" alt="Student Photo">
+            <div class="profile-info">
+                <h1>Vidhate Bharti Balu</h1>
+                <p><strong>Computer diploma Student</strong></p>
+                <p>"A passionate third year diploma student in computer engineering, eager to learn, build, and innovate with technology"</p>
+            </div>
+        </div>
+
+        <section>
+            <h2>🎯 Goal</h2>
+            <p>"Strengthen programming, database, and networking skillsWork on practical projects and internships to gain real-world experience.Improve problem-solving and logical thinking."</p>
+        </section>
+
+        <section>
+            <h2>📖 About Me</h2>
+            <ul>
+                <li><strong>Year:</strong>  polytechnic diploma,3rd Year,in Computer </li>
+                <li><strong>Skills:</strong> C/C++, Python,Java,html,Linux, Git,AWS,</li>
+                <li><strong>Interests:</strong>"intrested in coding,software development,problem-solving,and exploring new technologies."</li>
+                <li><strong>Hobbies:</strong>"coding reading,music,traveling"</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🔥 Motivations</h2>
+            <ul>
+                <li>"Motivated to learn, grow, and apply my computer skills to create innovative solutions."</li>
+                <li>"Love for lifelong learning and keeping up with evolving tech"</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
